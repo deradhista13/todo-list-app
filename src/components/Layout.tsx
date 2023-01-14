@@ -8,7 +8,6 @@ interface LayoutProps {
 const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <div className="w-full h-screen flex flex-col overflow-auto ">
-      <Header />
       <div className="h-full w-full overflow-auto p-3">{children}</div>
     </div>
   );
