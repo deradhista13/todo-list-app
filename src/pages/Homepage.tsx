@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { BiEditAlt } from "react-icons/bi";
-import { MdDeleteForever } from "react-icons/Md";
+import { MdDeleteForever } from "react-icons/md";
 
 import axios from "axios";
 import Swal from "sweetalert2";
